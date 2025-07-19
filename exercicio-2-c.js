@@ -1,12 +1,12 @@
-// Desafio: a) Extraia o primeiro nome usando o método slice ou substring
+// Desafio: c) Substitua "Silva" por outro sobrenome usando replace
 
 const firstName = "Maria";
 const lastName = "Silva";
 const fullName = firstName + " " + lastName;
 console.log("Nome completo:", fullName);
 
-const primeiroNome = fullName.substring(0, fullName.indexOf(" "));
-console.log(`O primeiro nome é: ${primeiroNome}`);
+const novoNome = fullName.replace("Silva", "Marques");
+console.log("Nome com novo sobrenome:", novoNome);
 
 const greeting = `Olá, meu nome é ${firstName} ${lastName}!`;
 console.log(greeting);
