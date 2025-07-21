@@ -13,3 +13,4 @@ const approvedCount = studentsWithStatus.filter(student => student.status === "A
 const failedCount = studentsWithStatus.filter(student => student.status === "Reprovado").length;
 console.log(`Aprovados: ${approvedCount}`);
 console.log(`Reprovados: ${failedCount}`);
+
